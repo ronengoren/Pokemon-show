@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500|Press+Start+2P");
+.webpage {
+  width: 1440px;
+  height: 1024px; }
+  .webpage .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%; }
+
+nav {
+  background-image: url("/images/navheader3.png");
+  height: 303px;
+  margin-bottom: 100px; }
+  nav nav-wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%; }
+  nav h1 {
+    color: #FFCE00; }
+  nav .brand-logo {
+    display: block;
+    border-radius: 50%;
+    animation: spin 1000ms linear infinite, moveLeftToRight 3s forwards;
+    position: absolute;
+    left: 0;
+    margin-top: 82px; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+@keyframes moveLeftToRight {
+  0% {
+    left: -100px; }
+  100% {
+    left: 44%; } }
+  nav h1 {
+    margin-top: 25px;
+    text-align: center;
+    animation: fadein 7s;
+    color: #FFCE00; }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.arc {
+  position: relative;
+  font-family: 'Orbitron', sans-serif; }
+  .arc li {
+    float: left;
+    position: relative;
+    list-style: none;
+    width: 400px;
+    height: 200px;
+    padding: 70px;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    margin: 4px 0 0 -150px;
+    animation: spin 4000ms linear infinite; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-360deg); } }
+  .arc #simple_arc {
+    display: block;
+    width: 306px;
+    height: 305px; }
+    .arc #simple_arc span[class^=w]:nth-of-type(n+0) {
+      display: block;
+      position: absolute;
+      transform-origin: 50% 100%; }
+    .arc #simple_arc span {
+      font-size: 38px;
+      font-weight: regular;
+      font-style: normal;
+      line-height: .15;
+      white-space: pre;
+      overflow: visible;
+      padding: 0px; }
+    .arc #simple_arc .w0 {
+      transform: rotate(-1.14rad);
+      width: 21px;
+      height: 14px;
+      left: 42.7px;
+      top: 99.95px; }
+    .arc #simple_arc .w1 {
+      transform: rotate(-0.69rad);
+      width: 34px;
+      height: 24px;
+      left: 73.63px;
+      top: 55.91px; }
+    .arc #simple_arc .w2 {
+      transform: rotate(-0.4rad);
+      width: 21px;
+      height: 24px;
+      left: 99.89px;
+      top: 39.25px; }
+    .arc #simple_arc .w3 {
+      transform: rotate(0.1rad);
+      width: 23px;
+      height: 24px;
+      left: 139.79px;
+      top: 31.58px;
+      color: #F40000; }
+    .arc #simple_arc .w4 {
+      transform: rotate(0.3rad);
+      width: 10px;
+      height: 24px;
+      left: 179.32px;
+      top: 35.9px;
+      color: #F40000; }
+    .arc #simple_arc .w5 {
+      transform: rotate(0.79rad);
+      width: 25px;
+      height: 24px;
+      left: 204.07px;
+      top: 53.42px;
+      color: #F40000; }
+    .arc #simple_arc .w6 {
+      transform: rotate(1.06rad);
+      width: 25px;
+      height: 15px;
+      left: 234.96px;
+      top: 87.39px;
+      color: #F40000; }
+
+/*# sourceMappingURL=style.css.map */

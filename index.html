@@ -6,7 +6,7 @@
   <title></title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
 
@@ -14,71 +14,80 @@
 
 <body>
 
-  <div class="webpage">
+  <div class="webpage ">
     <div class="container">
       <nav class="#ffffff white">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo center"><img src="pokedex-logo.png" style="float:left" height="150px"></a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down"><h1>Trainer Name</h1>
+          <a href="#" class="brand-logo center"><img src="images/pokedex-logo.png" style="float:left" height="150px"></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
 
           </ul>
+          <div class="arc">
+
+
+          <li id='simple_arc'>
+
+      <span class='w0'>N</span>
+       <span class='w1'>I</span>
+       <span class='w2'>N</span>
+       <span class='w3'>J</span>
+       <span class='w4'>A</span>
+       <span class='w5'>V</span>
+       <span class='w6'>A</span>
+
+
+          </li>
         </div>
 
       </nav>
 
 
 
-<!--
-    <div id="backgroundImg">
-      </div> -->
-
     <div class="row">
       <div class="container s12 m6 l4">
       <div class="col s12 m6 l4">
-  <div class="card">
+  <div class="card hoverable">
   <div class="card-image waves-effect waves-block waves-light">
-  <img id="nidoqueenimage" src="031_nidoqueenImg.png">
+  <img id="nidoqueenimage" src="images/031_nidoqueenImg.png" style="height:350px; width:350px">
   </div>
   <div class="card-content">
-    <span class="card-title activator grey-text text-darken-4" id="nidoqueenTitle"><i class="material-icons right">more_vert</i></span>
+    <span class="card-title activator grey-text  text-darken-4 btn grey lighten-3" id="nidoqueenTitle"><i class="material-icons right">more_vert</i></span>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4" id="nidoqueenReveal"><i class="material-icons right" id="closenidoqueen">close</i></span>
+      <span class="card-title grey-text z-depth-5 text-darken-4 btn grey lighten-3" id="nidoqueenReveal"><i class="material-icons right" id="closenidoqueen">close</i></span>
       <p>Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.</p>
       <p>Stats:</p>
       <div class="nidoqueenRevealInfo">
         <p id="nidoqueenDefenceInfo"></p>
         <p id="nidoqueenAttackInfo"></p>
         <p id="nidoqueenHpInfo"></p>
-        <p id="nidoqueenAbilitiesInfo"></p>
-
-
-
-
+        <p id="nidoqueenabilitiesInfo"></p>
+        <p id="nidoqueentypesInfo"></p>
       </div>
     </div>
   </div>
       </div>
     </div>
+
     <div class="container s12 m6 l4">
     <div class="col s12 m6 l4">
-<div class="card">
-<div class="card-image waves-effect waves-block waves-light">
-<img id="pidgeotimage" src="018_pidgeotImg.png">
+<div class="card hoverable">
+  <div class="card-image waves-effect waves-block waves-light">
+<img id="pidgeotimage" src="images/018_pidgeotImg.png" style="height:350px; width:350px">
 </div>
 <div class="card-content">
-  <span class="card-title activator grey-text text-darken-4" id="pidgeotTitle"><i class="material-icons right">more_vert</i></span>
+  <span class="card-title activator grey-text text-darken-4 btn grey lighten-3" id="pidgeotTitle"><i class="material-icons right" >more_vert</i></span>
   </div>
   <div class="card-reveal">
-    <span class="card-title grey-text text-darken-4" id="pidgeotReveal"><i class="material-icons right">close</i></span>
+    <span class="card-title grey-text text-darken-4 btn grey lighten-3" id="pidgeotReveal"><i class="material-icons right" id="closepidgeot">close</i></span>
     <p>This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.</p>
     <p>Stats:</p>
     <div class="pidgeotRevealInfo">
       <p id="pidgeotDefenceInfo"></p>
       <p id="pidgeotAttackInfo"></p>
-      <p id="pidgeotHpInf"></p>
-      <!-- <p id="AbilitiesInfo"></p> -->
-
+      <p id="pidgeotHpInfo"></p>
+      <p id="pidgeotabilitiesInfo"></p>
+      <p id="pidgeottypesInfo"></p>
 
     </div>
   </div>
@@ -88,22 +97,96 @@
   </div>
   <div class="container s12 m6 l4">
   <div class="col s12 m6 l4">
-<div class="card">
+<div class="card hoverable">
 <div class="card-image waves-effect waves-block waves-light">
-<img id="arbokimage" src="024_arbokImg.png">
+<img id="arbokimage" src="images/024_arbokImg.png" style="height:350px; width:350px">
 </div>
 <div class="card-content">
-<span class="card-title activator grey-text text-darken-4" id="arbokTitle"><i class="material-icons right">more_vert</i></span>
+<span class="card-title activator grey-text text-darken-4 btn grey lighten-3" id="arbokTitle"><i class="material-icons right">more_vert</i></span>
 </div>
 <div class="card-reveal">
-  <span class="card-title grey-text text-darken-4" id="arbokReveal"><i class="material-icons right">close</i></span>
+  <span class="card-title grey-text text-darken-4 btn grey lighten-3" id="arbokReveal"><i class="material-icons right" id="closearbok">close</i></span>
   <p>This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.</p>
   <p>Stats:</p>
   <div class="arbokRevealInfo">
     <p id="arbokDefenceInfo"></p>
     <p id="arbokAttackInfo"></p>
     <p id="arbokHpInfo"></p>
-    <!-- <p id="AbilitiesInfo"></p> -->
+    <p id="arbokabilitiesInfo"></p>
+    <p id="arboktypesInfo"></p>
+
+  </div>
+</div>
+</div>
+  </div>
+</div>
+<div class="container s12 m6 l4">
+<div class="col s12 m6 l4">
+<div class="card hoverable">
+<div class="card-image waves-effect waves-block waves-light">
+<img id="slakothimage" src="images/287_slakothImg.png" style="height:350px; width:350px">
+</div>
+<div class="card-content">
+<span class="card-title activator grey-text text-darken-4 btn grey lighten-3" id="slakothTitle"><i class="material-icons right">more_vert</i></span>
+</div>
+<div class="card-reveal">
+<span class="card-title grey-text text-darken-4 btn grey lighten-3" id="slakothReveal"><i class="material-icons right" id="closearbok">close</i></span>
+<p>Slakoth lolls around for over 20 hours every day. Because it moves so little, it does not need much food. This Pokémon's sole daily meal consists of just three leaves.</p>
+<p>Stats:</p>
+<div class="slakothRevealInfo">
+  <p id="slakothDefenceInfo"></p>
+  <p id="slakothAttackInfo"></p>
+  <p id="slakothHpInfo"></p>
+  <p id="slakothabilitiesInfo"></p>
+  <p id="slakothtypesInfo"></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>  <div class="container s12 m6 l4">
+  <div class="col s12 m6 l4">
+<div class="card hoverable">
+<div class="card-image waves-effect waves-block waves-light">
+<img id="oddishimage" src="images/043_oddishImg.png" style="height:350px; width:350px">
+</div>
+<div class="card-content">
+<span class="card-title activator grey-text text-darken-4 btn grey lighten-3" id="oddishTitle"><i class="material-icons right">more_vert</i></span>
+</div>
+<div class="card-reveal">
+  <span class="card-title grey-text text-darken-4 btn grey lighten-3" id="oddishReveal"><i class="material-icons right" id="closeoddish">close</i></span>
+  <p>During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.</p>
+  <p>Stats:</p>
+  <div class="oddishRevealInfo">
+    <p id="oddishDefenceInfo"></p>
+    <p id="oddishAttackInfo"></p>
+    <p id="oddishHpInfo"></p>
+    <p id="oddishabilitiesInfo"></p>
+    <p id="oddishtypesInfo"></p>
+
+  </div>
+</div>
+</div>
+  </div>
+</div>  <div class="container s12 m6 l4">
+  <div class="col s12 m6 l4">
+<div class="card hoverable">
+<div class="card-image waves-effect waves-block waves-light">
+<img id="clefairyimage" src="images/035_clefairyImg.png" style="height:350px; width:350px">
+</div>
+<div class="card-content">
+<span class="card-title activator grey-text text-darken-4 btn grey lighten-3" id="clefairyTitle"><i class="material-icons right">more_vert</i></span>
+</div>
+<div class="card-reveal">
+  <span class="card-title grey-text text-darken-4 btn grey lighten-3" id="clefairyReveal"><i class="material-icons right" id="closeclefairy">close</i></span>
+  <p>On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.</p>
+  <p>Stats:</p>
+  <div class="clefairyRevealInfo">
+    <p id="clefairyDefenceInfo"></p>
+    <p id="clefairyAttackInfo"></p>
+    <p id="clefairyHpInfo"></p>
+    <p id="clefairyabilitiesInfo"></p>
+    <p id="clefairytypesInfo"></p>
 
   </div>
 </div>
@@ -113,7 +196,7 @@
   </div>
 </div>
 
-
+</div>
 
 
 

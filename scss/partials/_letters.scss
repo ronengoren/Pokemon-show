@@ -1,0 +1,130 @@
+.arc {
+
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+
+
+
+  li {
+    float: left;
+    position: relative;
+    list-style: none;
+    width: 400px;
+ height: 200px;
+ padding: 70px;
+
+ position: absolute;
+ top: -50%;
+ left: 50%;
+
+ margin: 4px 0 0 -150px;
+ animation: spin 4000ms linear infinite;
+
+
+ @keyframes spin {
+   from { transform: rotate(-0deg); }
+   to { transform: rotate(-360deg); }
+ }
+
+
+  }
+
+  #simple_arc {
+  	     display: block;
+               width:306px;
+               height:305px;
+
+
+               span[class^=w]:nth-of-type(n+0){
+               					 display:block;
+               					 position:absolute;
+               					 transform-origin:50% 100%;
+               					 }
+                         span {
+
+  					 font-size:38px;
+  					 font-weight:regular;
+  					 font-style:normal;
+                       line-height:.15;
+  					 white-space:pre;
+  					 overflow:visible;
+  					 padding:0px;
+                         }
+
+                         .w0 {
+
+                           transform: rotate(-1.14rad);
+                                     width: 21px;
+                					 height: 14px;
+                					 left: 42.7px;
+                					 top: 99.95px;
+                         }
+
+                         .w1 {
+
+                           transform: rotate(-0.69rad);
+                                     width: 34px;
+                					 height: 24px;
+                					 left: 73.63px;
+                					 top: 55.91px;
+                         }
+                         .w2 {
+
+                           transform: rotate(-0.4rad);
+                                     width: 21px;
+                					 height: 24px;
+                					 left: 99.89px;
+                					 top: 39.25px;
+                         }
+
+                         .w3 {
+
+                           transform: rotate(0.1rad);
+                                     width: 23px;
+                					 height: 24px;
+                					 left: 139.79px;
+                					 top: 31.58px;
+                           color: $javalettersColor;
+
+                         }
+                         .w4 {
+
+                           transform: rotate(0.3rad);
+                					 width: 10px;
+                					 height: 24px;
+                					 left: 179.32px;
+                					 top: 35.9px;
+                           color: $javalettersColor;
+
+                         }
+
+                         .w5 {
+
+                           transform: rotate(0.79rad);
+                           width: 25px;
+                          height: 24px;
+                          left: 204.07px;
+                          top: 53.42px;
+                          color: $javalettersColor;
+
+                         }
+                         .w6 {
+
+
+               transform: rotate(1.06rad);
+                         width: 25px;
+               height: 15px;
+               left: 234.96px;
+               top: 87.39px;
+               color: $javalettersColor;
+
+               }
+
+
+  	}
+
+
+
+
+
+}
